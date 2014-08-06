@@ -33,7 +33,7 @@ list(APPEND zmqblocks_sources
     source_pushpull_impl.cc
     source_pushpull_feedback_impl.cc
     sink_pubsub_impl.cc
-    )
+    source_pubsub_impl.cc )
 
 add_library(gnuradio-zmqblocks SHARED ${zmqblocks_sources})
 target_link_libraries(gnuradio-zmqblocks ${Boost_LIBRARIES} ${GNURADIO_RUNTIME_LIBRARIES} ${ZeroMQ_LIBRARIES})

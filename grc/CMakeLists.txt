@@ -25,5 +25,6 @@ install(FILES
     zmqblocks_source_pushpull.xml
     zmqblocks_source_pushpull_feedback.xml
     zmqblocks_sink_pubsub.xml
-    zmqblocks_probe_pubsub.xml DESTINATION share/gnuradio/grc/blocks
+    zmqblocks_probe_pubsub.xml
+    zmqblocks_source_pubsub.xml DESTINATION share/gnuradio/grc/blocks
 )

@@ -30,5 +30,5 @@ install(FILES
     source_pushpull.h
     source_pushpull_feedback.h
     sink_pubsub.h
-    DESTINATION include/zmqblocks
+    source_pubsub.h DESTINATION include/zmqblocks
 )
